@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300;1,600;1,700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+}
+header{
+display: flex;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 999;
+justify-content:space-between;
+align-items: center;
+padding: 10px 50px;
+width: 100%;
+}
+a{
+  text-decoration: none;
+}
+header .brand{
+  color: rgb(5, 5, 170);
+  font-weight: 700;
+  font-size: 32px;
+  text-decoration: none;
+  
+}
+.navigation{
+  position: relative;
+
+}
+.navigation a{
+  margin: 0 20px;
+  padding: 10px;
+  transition: .3s;
+}
+.navigation a:hover {
+  border-bottom: 2px solid rgb(5, 5, 170);
+}
+.button{
+  margin-left: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid rgb(5, 5, 170) ;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.button:hover{
+  background-color: rgb(5, 5, 170);
+  color: white;
+  cursor: pointer;
+} 
+
+.contact-form{
+  display: none;
+  /* display: flex; */
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 999999;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.close{
+  margin-top: -30px;
+ margin-left: 650px;
+ margin-bottom: 30px;
+  font-size: 22px;
+  color: rgb(5, 5, 170);
+  border: 1px solid rgb(18, 18, 207);
+  text-align: center;
+  padding: 14px;
+  cursor: pointer;
+  transition: .2s all;
+}
+.close:hover{
+  background-color: rgb(18, 18, 207);
+  color: #fff;
+}
+.contact-form h2{
+  font-size: 27px;
+  width: 130vh;
+  margin: 20px auto;
+}
+.form-content{
+  padding-top: 50px;
+  width: 90vh;
+}
+input{
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+label{
+  font-size: 20px;
+}
+.submit{
+  
+  margin: 15px auto;
+}
+
+.main{
+  width: 100%;
+}
+.main .content{
+text-align: center;
+}
+.content h1{
+text-align: center;
+margin-top: 150px;
+font-size: 60px;
+}
+.main .content p{
+  margin-top: 30px;
+  font-size: 22px;
+}
+.content img{
+  width: 250px;
+  margin: 30px auto ;
+}
+/* --------- about section  */
+
+.about .content{
+  background-color: rgb(18, 18, 207);
+  text-align: center;
+  color: #fff;
+  word-spacing: 10px;
+  padding: 40px 60px;
+ }
+.about .content h2{
+  margin: 20px;
+  font-size: 40px;
+}
+.about .content span{
+  color: #F3F70F;
+  font-weight: bolder;
+}
+.about .content span a{
+  color: #F3F70F;
+  font-weight: bolder;
+}
+.about .content span a:hover{
+  border-bottom: 2px solid #F3F70F;
+
+}
+.print{
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #F3F70F ;
+  border-radius: 20px;
+  transition: 0.3s;
+  color: #F3F70F;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  width: max-content;
+  margin: 20px auto;
+  font-size: 20px;
+}
+.print:hover{
+  background-color: #c9cc05;
+  color: white;
+} 
+.skills{
+  padding: 10px;
+  width: 70%;
+  margin: -20px   auto;
+  border: 2px solid rgb(5, 5, 170);
+  border-radius: 20px;
+z-index: 999;
+background-color: #fff;
+text-align: center;
+box-shadow: 0px 0px 7px 2px rgb(5, 5, 170);
+}
+.skills .code{
+  font-size: 120px;
+  color: rgb(5, 5, 170);
+}
+.skills h3{
+ font-size: 30px;
+ margin: 20px 0 ;
+}
+.skills span{
+  color: rgb(5, 5, 170);
+  font-weight: bold;
+}
+.skills p{
+margin: 20px 0;
+font-size: 18px;
+
+}
+.skills li {
+list-style-type: none;
+padding-top: 15px;
+font-size: 18px;
+}
+.projects .content h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 40px;
+}
+.projects .content p{
+  padding: 0 200px;
+  font-size: 17px;
+}
+
+.projects .content .tab-items {
+  margin: 20px;
+  border: 1px solid rgb(18, 18, 207);
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 2px rgb(5, 5, 170);
+  padding: 15px;
+  float: right;
+  clear: right;
+  
+}
+.tab-item{
+  margin: 10px;
+  display: inline;
+  float: right;
+  clear: right;
+  list-style-type: none;
+  cursor: pointer;
+  font-weight: bold;
+  color: rgb(5, 5, 170);
+  transition: .5s all;
+}
+.tab-item-active{
+  border-bottom: 1px solid rgb(18, 18, 207);
+  color: rgb(50, 50, 243);
+
+}
+.projects .content .box{
+  text-align: center;
+  border: 1px solid rgb(5, 5, 170);
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 1px rgb(92, 92, 230);
+
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 25px 30px;
+  align-items: center;
+  padding: 20px;
+}
+.projects .content .box img{
+  width: 45%;
+}
+ .box span {
+  color: rgb(18, 18, 207);
+  font-weight: bold;
+  margin-top: 15px;
+}
+.box h3{
+  color: rgb(5, 5, 170);
+}
+.box p {
+  margin-bottom: 35px ;
+}
+.testimonials {
+  text-align: center;
+  padding: 50px 170px;
+}
+.testimonials h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+.testimonials p{
+  font-weight: 100;
+}
+.slide-txt {
+  font-weight: bolder;
+  padding: 20px 0;
+  font-size: 25px;
+}
+.name{
+  color: rgb(18, 18, 207);
+  margin-bottom: 10px;
+}
+.test-slide{
+  margin-top: 70px;
+}
+
+.test-slider-counter{
+  display: flex;
+  width: 180px;
+  font-size: 28px;
+  margin: -50px;
+  float: right;
+  color: rgb(5, 5, 170);
+}
+.test-slider-prev{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.test-slider-next{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.test-slider #current {
+  font-size: 35px;
+  font-weight: 700;
+  color: rgb(5, 5, 170);
+}
+.contact {
+  margin-top: 30px;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(29, 27, 27);
+  color: #fff;
+  width: 75%;
+  margin: 0 auto;
+  padding: 40px 0;
+  border-radius: 15px;
+z-index: 999;  
+margin-bottom: -80px;
+position: relative;
+}
+.form h2{
+  font-size: 40px;
+}
+.form p {
+  width: 160px;
+  margin: 0 50px;
+  font-size: 20px;
+}
+.social{
+  margin-top: -25px;
+  width: 100%;
+  height: 65vh;
+  background-color: rgb(50, 50, 243);
+  
+
+}
+.social .brand{
+  color: #fff;
+  font-size: 100px;
+  position: relative;
+  top: 100px;
+  left: 600px;
+  
+}
+.messengers{
+  position: relative;
+  top: 250px;
+  left: 407px; 
+  z-index: 999;
+  display: inline-block;
+  
+}
+.messengers .fab{
+  font-size: 35px;
+  color: rgb(50, 50, 243);
+  height: 1.3em;
+  width: 1.3em;
+ margin: 7px;
+ padding-top: 5px ;
+ text-align: center;
+ justify-content: center;
+  background-color: #fff;
+  border-radius: 25px;
+  cursor: pointer;
+  
+}
+.messengers .fab:hover{
+  background-color: #000;
+  color: #fff;
+}
+.messengers p{
+  color: #fff;
+  margin-top: 35px;
+  margin-left: 15px;
+}
