@@ -1,214 +1,306 @@
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="UTF-8">
-          <meta http-equiv="X-UA-Compatible" content="IE=edge">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Jamshid Mirzakhmedov | Full-stack Developer</title>
-          <link rel="stylesheet" href="style.css">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        </head>
-        <body>
-          <header>
-            <a href="#" class="brand">JM</a>
-            <div class="navigation">
-              <a href="#">Home</a>
-              <a href="#">About</a>
-              <a href="#">Work</a>
-              <a href="#">Tools</a>
-              <a class="button contact-me" href="">Contact Me</a> 
-            </div>
-          </header>
-          <div class="contact-form">
-            <form action="" class="form-content">
-              <i class="fas fa-times close" data-form=""></i>
-            <h2>Thanks for reaching out to me. What's on your mind?</h2>
-            <div class="input">
-              <label for="name">Name:</label>
-              <input name="name" type="text" placeholder="Your Name">
-              <label for="Email">Email:</label>
-              <input name="Email" type="text" placeholder="Your Email">
-            </div>
-            <label for="message">Message:</label>
-            <textarea name="message" id="message" cols="60" rows="10" placeholder="Please write your message here"></textarea>
-            <button type="submit" class="button submit">Submit</button>  
-          </form>
-            
-          </div>
-  <section id="main" class="main">
-    <div class="content">
-      <h1>Full-stack Web Developer</h1>
-      <p>I'm full-stack web developer in Tashkent, Uz. I learned to code <br> while studying Economic Security at Tashkent State University of Economics! </p>
-    <img src="1.jpg" alt="">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamshid Mirzakhmedov | FrontEnd Developer</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="/img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="brand">JM</a>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Work</a>
+        <a href="#skills">Tools</a>
+        <a class="button contact-me" href="">Contact Me</a>
+      </div>
+    </header>
+    <div class="contact-form">
+      <form action="" class="form-content">
+        <i class="fas fa-times close" data-form=""></i>
+        <h2>Thanks for reaching out to me. What's on your mind?</h2>
+        <div class="input">
+          <label for="name">Name:</label>
+          <input name="name" type="text" placeholder="Your Name" />
+          <label for="Email">Email:</label>
+          <input name="Email" type="text" placeholder="Your Email" />
+        </div>
+        <label for="message">Message:</label>
+        <textarea
+          name="message"
+          id="message"
+          cols="60"
+          rows="10"
+          placeholder="Please write your message here"
+        ></textarea>
+        <button type="submit" class="button submit">Submit</button>
+      </form>
     </div>
-  </section>
-  <section id="about" class="about">
-    <div class="content">
-      <h2>Hello, I'm Jamshid, <span>Let's talk!</span></h2>
-      <p>I was studying in Tashkent, thinking about my future career and i find coding suitable for me... Then I started this journey and haven't looked back! Now I'm doing full-stack development at a cyber security firm. Take a look at my <span><a href="">skills</a></span>, some of my most recent <span><a href="">projects</a></span>, and read some of my managers' <span><a href="">testimonials</a></span>  below.  </p>
-      <a class="print" href="">Print Resume</a>
-    </div>
-    <div class="skills">
-      <i class="far fa-file-code code"></i>
-      <h3>Full-stack Web Developer</h3>
-      <span>Thing I've learned:</span>
-      <p class="techs">JavaScript, HTML, CSS, React.js, Vue.js, MongoDB, Express, Node.js, SQL, and more...</p>
-      <span>Tools I use:</span>
-      <ul>
-       <li>Visual Studio Code</li> 
-       <li>Github</li> 
-       <li>Redux</li> 
-       <li>React Router</li> 
-       <li>Axios</li> 
-       <li>npm</li> 
-       <li>Git</li>  
-       <li>Bootstrap</li> 
-       <li>Chrome Developer Tools</li> 
-       <li>And more...</li> 
-      </ul>
-    </div>
-  </section>
-  <section id="projects" class="projects" >
-    <div class="content">
-      <h2>My Recent Projects</h2>
-      <p>These are all self-directed projects. You can find more work on my <a href="">Github</a>. Below are just <br> some of my
-        most recent works. <a href="">Let me know if you have any questions!</a> </p>
-         <ul class="tab-items">
-        <li class="tab-item tab-item-active">Meteorite Explorer App</li>
-        <li class="tab-item">Full-stack Markdown Previewer</li>
-        <li class="tab-item">Full-stack Exercise Logger</li>
-        <li class="tab-item">MERN URL Shortener</li>
-        <li class="tab-item">Company Website</li>
-        <li class="tab-item">Ab Workout Generator</li>
+    <section id="main" class="main">
+      <div class="content">
+        <h1>FrontEnd Developer</h1>
+        <p>
+          I'm FrontEnd developer in Tashkent, Uz. I learned to code <br />
+          while studying in Tashkent.
+        </p>
+        <img src="/img/1.jpg" alt="" />
+      </div>
+    </section>
+    <section id="about" class="about">
+      <div class="content">
+        <h2>Hello, I'm Jamshid, <span>Let's talk!</span></h2>
+        <p>
+          I was studying Economic Security at Tashkent State University of
+          Economics!, thinking about my future career and i find coding suitable
+          for me... Then I started this journey and haven't looked back!. Take a
+          look at my
+          <span><a href="#skills">skills</a></span
+          >, some of my most recent <span><a href="#projects">projects</a></span
+          >, and read some of my managers'
+          <span><a href="#testimonials">testimonials</a></span> below.
+        </p>
+        <a class="print" href="/Jamshid Mirzakhmedov.pdf" download="portfolio"
+          >Print Resume</a
+        >
+      </div>
+      <div class="skills" id="skills">
+        <i class="far fa-file-code code"></i>
+        <h3>Web Developer</h3>
+        <span>Things I've learned:</span>
+        <p class="techs">
+          JavaScript, HTML, CSS, React.js, React-Router, Bootstrap, Materialize
+          and more...
+        </p>
+        <span>Tools I use:</span>
+        <ul>
+          <li>Visual Studio Code</li>
+          <li>Github</li>
+          <li>Redux</li>
+          <li>React Router</li>
+          <li>Axios</li>
+          <li>npm</li>
+          <li>Git</li>
+          <li>Bootstrap</li>
+          <li>Chrome Developer Tools</li>
+          <li>And more...</li>
+        </ul>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <div class="content">
+        <h2>My Recent Projects</h2>
+        <p>
+          These are all self-directed projects. You can find more work on my
+          <a href="https://github.com/JamshidMirzakhmedov?tab=repositories"
+            >Github</a
+          >. Below are just <br />
+          some of my most recent works.
+          <a href="https://t.me/Jamshid_Ulugbek"
+            >Let me know if you have any questions!</a
+          >
+        </p>
+        <ul class="tab-items">
+          <li class="tab-item tab-item-active">IP Address Tracker</li>
+          <li class="tab-item">Advice Generator</li>
+          <li class="tab-item">Weather App</li>
+          <li class="tab-item">Movie Info App</li>
+          <li class="tab-item">Cooking Meal Website</li>
         </ul>
         <div class="boxes">
           <div class="box">
-            <img src="http://www.fromgaming.com/portfolio2/static/media/meteor-markup.836714cf.png" alt="">
-            <h3>Meteorite Explorer App</h3>
-            <p>React.js, Axios, SASS, Bootstrap, Ant Design</p>
+            <img src="/img/ip-address.jpg" alt="" />
+            <h3>IP Address Tracker</h3>
+            <p>React.js, Fetch, Bootstrap, Leaflet and ipapi APIs</p>
             <span>Summary</span>
-            <p>This project queries NASA's meteorite landing dataset. Firsts in this project included: 
-              learning how to use Socrata API, implement some form of pagination, 
-              and adding a little animation.</p>
-              <a class="button demo" href="">View demo</a> 
+            <p>
+              This project queries leaflet and ipapi . Firsts in this project
+              included: learning how to use IPAPI API, implement Leaflet map.
+            </p>
+            <a
+              class="button demo"
+              href="https://ip-address-tracker-by-jam.herokuapp.com/"
+              >View demo</a
+            >
+            <a
+              class="button-code"
+              href="https://github.com/JamshidMirzakhmedov/ip-address-trackerr"
+              >View Code</a
+            >
           </div>
           <div class="box">
-            <img src="http://www.fromgaming.com/portfolio2/static/media/markdown-markup.0e73be8a.png" alt="">
-            <h3>Full-stack Markdown Previewer</h3>
-            <p>MongoDB, Mongoose, Express.js, React.js, Node.js, Axios, Redux, HTML, CSS, Bootstrap</p>
+            <img src="/img/advice-generator.jpg" alt="" />
+            <h3>Advice Generator</h3>
+            <p>React.js, Fetch HTML, CSS, Bootstrap</p>
             <span>Summary</span>
-            <p>This app idea came from FreeCodeCamp's APIs and Microservices track. By this point, I was already pretty familiar with making 
-              full-stack apps. So I decided to learn Redux and try using it in this project. Success!</p>
-              <a class="button demo" href="">View demo</a> 
+            <p>
+              This app idea came from one of the FrontendMentor's challenges. By
+              this point, I was already pretty familiar with making making
+              'random' function. So I decided to learn Advice slip api and try
+              using it in this project. Success!
+            </p>
+            <a
+              class="button demo"
+              href="https://advice-generator-by-jam.netlify.app/"
+              >View demo</a
+            >
+            <a
+              class="button-code"
+              href="https://github.com/JamshidMirzakhmedov/advice-generator-by-jam"
+              >View Code</a
+            >
           </div>
           <div class="box">
-            <img src="http://www.fromgaming.com/portfolio2/static/media/exerciselog-markup.f4f27773.png" alt="">
-            <h3>Full-stack Exercise Logger </h3>
-            <p>MongoDB, Mongoose, Express.js, React.js, Node.js, Axios, React Router, HTML, CSS, Bootstrap</p>
+            <img src="/img/Weather.jpg" alt="" />
+            <h3>Weather App</h3>
+            <p>HTML, CSS, Bootstrap, JavaScript, API, Fetch</p>
             <span>Summary</span>
-            <p>I made this exercise logger as additional practice making full-stack apps with JavaScript's MERN stack.</p>
-              <a class="button demo" href="">View demo</a> 
+            <p>
+              I made this Weather App as additional practice making api apps
+              with JavaScript.
+            </p>
+            <a
+              class="button demo"
+              href="https://weatherappbymirzakhmedov.netlify.app/"
+              >View demo</a
+            >
+            <a
+              class="button-code"
+              href="https://github.com/JamshidMirzakhmedov/WeatherAppJS"
+              >View Code</a
+            >
           </div>
           <div class="box">
-            <img src="http://www.fromgaming.com/portfolio2/static/media/urlshortner-markup.fc5bb0b8.png" alt="">
-            <h3>MERN URL Shortener</h3>
-            <p>MongoDB, Mongoose, Express.js, React.js, Node.js, Axios, React Router, HTML, CSS, Bootstrap</p>
+            <img src="img/photo_2022-06-16_23-08-49.jpg" alt="movie" />
+            <h3>Movie Info App</h3>
+            <p>React.js, Fetch, HTML, CSS, Bootstrap</p>
             <span>Summary</span>
-            <p>This is one of my first efforts in making a full-stack web app using the MERN stack. 
-              It has since shortened 60+ URLs.</p>
-              <a class="button demo" href="">View demo</a> 
+            <p>
+              This is one of my first efforts in making react app using omdb
+              api.
+            </p>
+            <a
+              class="button demo"
+              href="https://movie-by-jam-react.netlify.app/"
+              >View demo</a
+            >
+            <a
+              class="button-code"
+              href="https://github.com/JamshidMirzakhmedov/movie-by-jam-react"
+              >View Code</a
+            >
           </div>
           <div class="box">
-            <img src="http://www.fromgaming.com/portfolio2/static/media/company-markup.e3e55592.png" alt="">
-            <h3>Company Website</h3>
+            <img src="/img/meal.jpg" alt="meal" />
+            <h3>Cooking Meal</h3>
             <p>React.js, React Router, HTML, CSS, Bootstrap</p>
             <span>Summary</span>
-            <p>I made this responsive website as a practice in developing a website from a mockup and using React Router.</p>
-              <a class="button demo" href="">View demo</a> 
-          </div>
-          <div class="box">
-            <img src="http://www.fromgaming.com/portfolio2/static/media/abworkout-mockup.26839ae4.png" alt="">
-            <h3>Ab Workout Generator</h3>
-            <p>JavaScript, HTML, CSS, PHP, SQL</p>
-            <span>Summary</span>
-            <p>I made this project when I was learning PHP and SQL. Change into your gym clothes and give it a try.</p>
-              <a class="button demo" href="">View demo</a> 
+            <p>
+              I made this responsive website as a practice in developing a
+              website from a mockup and using React Router.
+            </p>
+            <a class="button demo" href="https://cookingmeal.herokuapp.com/"
+              >View demo</a
+            >
+            <a
+              class="button-code"
+              href="https://github.com/JamshidMirzakhmedov/spa-app-by-jam"
+              >View Code</a
+            >
           </div>
         </div>
-        
-       
-
-    </div>
-
-  </section>
-  <section id="testimonials" class="testimonials">
-    <div class="content">
-      <h2>Testimonials</h2>
-      <p>I've lived in Texas, Colorado, Las Vegas, China, California, and Chicago.
-         Here are some nice things people from all over have said about me:
-      </p>
-      <div class="test-slider">
-        <div class="test-slider-counter">
-          <div class="test-slider-prev">
-            <i class="far fa-arrow-alt-circle-left"></i>
-          </div>
-          <span id="current">01</span>/
-          <span id="total">03</span>
-          <div class="test-slider-next">
-            <i class="far fa-arrow-alt-circle-right"></i>
-          </div>
-        </div>
-        <div class="test-slide-wrapper">
-          <div class="test-slide">
-            <p class="slide-txt">"He loved this job and was very patient and enthusiastic.
-             He treated each task with strong enthusiasm and great effort."
-            </p>
-            <h3 class="name">Jasmine Zhang</h3>
-            <p>Operation Exectuive of Innovation Education, Shenzhen Seaskyland Technology</p>
-          </div>
-          <div class="test-slide">
-            <p class="slide-txt">
-              "I found him to be consistenty responsible and honest, working with dedication as a teacher. 
-              He had a wonderful rapport with both colleagues and students."
-            </p>
-            <h3 class="name">Christina Zhang</h3>
-            <p>English Department Head, Xili Primary School</p>
-          </div>
-          <div class="test-slide">
-            <p class="slide-txt">
-              "Ethan is one of the most driven and dedicated individuals I have ever met. He gives 100% to everything he takes on. As a student he achieved multiple degrees and is fluent in two additional languages to English.
-               Ethan takes on new challenges with a positive attitude and always goes above and beyond."
-            </p>
-            <h3 class="name">Sonja Beauchamp</h3>
-            <p>Regional Sales Executive, Versant Health
-            </p>
-          </div>
-         
-
-        </div>
-        
       </div>
-    </div>
-  </section>
-  <section id="contact" class="contact" >
-    <div class="form">
-      <h2>Let's talk!</h2>
-      <p>I'm always looking for opportunities.</p>
-      <div class="button contact-me-btn contact-me">Contact Me</div>
-    </div>
-    <div class="social">
-    <a href="#" class="brand">JM</a>
-      <div class="messengers">
-        <i class="fab fa-github"></i>
-        <i class="fab fa-linkedin-in"></i>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-telegram-plane"></i><p>© Jamshid Mirzakhmedov</p>
+    </section>
+    <section id="testimonials" class="testimonials">
+      <div class="content">
+        <h2>Testimonials</h2>
+        <p>
+          I've been living in Tashkent for about four years. Here are some nice
+          things people from all over have said about me:
+        </p>
+        <div class="test-slider">
+          <div class="test-slider-counter">
+            <div class="test-slider-prev">
+              <i class="far fa-arrow-alt-circle-left"></i>
+            </div>
+            <span id="current">01</span>/
+            <span id="total">03</span>
+            <div class="test-slider-next">
+              <i class="far fa-arrow-alt-circle-right"></i>
+            </div>
+          </div>
+          <div class="test-slide-wrapper">
+            <div class="test-slide">
+              <p class="slide-txt">
+                "He was very patient and enthusiastic about english. He treated
+                each task with strong enthusiasm and great effort."
+              </p>
+              <h3 class="name">Doston Isakov</h3>
+              <p>Ielts Tutor, Graduate of MDIST</p>
+            </div>
+            <div class="test-slide">
+              <p class="slide-txt">
+                "I found him to be consistenty responsible and honest, working
+                with dedication as a learner. He had a wonderful rapport with
+                both teachers and students."
+              </p>
+              <h3 class="name">Marhoba Saidova</h3>
+              <p>Phd of Statistics, Tashkent State University of Economics</p>
+            </div>
+            <div class="test-slide">
+              <p class="slide-txt">
+                "Jamshid is one of the most driven and dedicated individuals I
+                have ever met. He gives 100% to everything he takes on. he takes
+                on new challenges with a positive attitude and always goes above
+                and beyond."
+              </p>
+              <h3 class="name">Nilufar Nabieva</h3>
+              <p>Teacher of TSUE, English Tutor</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    
-  </section>
-  
- 
-<script src="script.js"></script>
-</body>
+    </section>
+    <section id="contact" class="contact">
+      <div class="form">
+        <h2>Let's talk!</h2>
+        <p>I'm always looking for opportunities.</p>
+        <div class="button contact-me-btn contact-me">Contact Me</div>
+      </div>
+      <div class="social">
+        <a href="#" class="brand">JM</a>
+        <div class="messengers">
+          <a href="https://github.com/JamshidMirzakhmedov?tab=repositories"
+            ><i class="fab fa-github"></i
+          ></a>
+          <i class="fab fa-linkedin-in"></i>
+          <a href="https://www.facebook.com/jamshid.mirzaxmedov.5"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+
+          <a href="https://t.me/Jamshid_Ulugbek"
+            ><i class="fab fa-telegram-plane"></i
+          ></a>
+
+          <p>© Jamshid Mirzakhmedov</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
 </html>
