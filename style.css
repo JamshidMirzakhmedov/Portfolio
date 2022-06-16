@@ -1,59 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,300;1,600;1,700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
-header{
-display: flex;
-position: fixed;
-top: 0;
-left: 0;
-z-index: 999;
-justify-content:space-between;
-align-items: center;
-padding: 10px 50px;
-width: 100%;
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  width: 100%;
 }
-a{
+a {
   text-decoration: none;
 }
-header .brand{
+header .brand {
   color: rgb(5, 5, 170);
   font-weight: 700;
   font-size: 32px;
   text-decoration: none;
-  
 }
-.navigation{
+.navigation {
   position: relative;
-
 }
-.navigation a{
+.navigation a {
   margin: 0 20px;
   padding: 10px;
-  transition: .3s;
+  transition: 0.3s;
 }
 .navigation a:hover {
   border-bottom: 2px solid rgb(5, 5, 170);
 }
-.button{
+.button {
   margin-left: 10px;
   text-align: center;
   padding: 10px;
-  border: 2px solid rgb(5, 5, 170) ;
+  border: 2px solid rgb(5, 5, 170);
   border-radius: 20px;
   transition: 0.3s;
 }
-.button:hover{
+.button:hover {
   background-color: rgb(5, 5, 170);
   color: white;
   cursor: pointer;
-} 
+}
 
-.contact-form{
+.button-code {
+  margin-left: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid rgb(88, 88, 170);
+  border-radius: 20px;
+  transition: 0.3s;
+}
+.button-code:hover {
+  background-color: rgb(82, 82, 175);
+  color: white;
+  cursor: pointer;
+}
+
+.contact-form {
   display: none;
   /* display: flex; */
   align-items: center;
@@ -67,95 +79,93 @@ header .brand{
   top: 0;
   left: 0;
 }
-.close{
+.close {
   margin-top: -30px;
- margin-left: 650px;
- margin-bottom: 30px;
+  margin-left: 650px;
+  margin-bottom: 30px;
   font-size: 22px;
   color: rgb(5, 5, 170);
   border: 1px solid rgb(18, 18, 207);
   text-align: center;
   padding: 14px;
   cursor: pointer;
-  transition: .2s all;
+  transition: 0.2s all;
 }
-.close:hover{
+.close:hover {
   background-color: rgb(18, 18, 207);
   color: #fff;
 }
-.contact-form h2{
+.contact-form h2 {
   font-size: 27px;
   width: 130vh;
   margin: 20px auto;
 }
-.form-content{
+.form-content {
   padding-top: 50px;
   width: 90vh;
 }
-input{
+input {
   height: 30px;
   padding-left: 10px;
   margin-bottom: 10px;
 }
-label{
+label {
   font-size: 20px;
 }
-.submit{
-  
+.submit {
   margin: 15px auto;
 }
 
-.main{
+.main {
   width: 100%;
 }
-.main .content{
-text-align: center;
+.main .content {
+  text-align: center;
 }
-.content h1{
-text-align: center;
-margin-top: 150px;
-font-size: 60px;
+.content h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 60px;
 }
-.main .content p{
+.main .content p {
   margin-top: 30px;
   font-size: 22px;
 }
-.content img{
+.content img {
   width: 250px;
-  margin: 30px auto ;
+  margin: 30px auto;
 }
 /* --------- about section  */
 
-.about .content{
+.about .content {
   background-color: rgb(18, 18, 207);
   text-align: center;
   color: #fff;
   word-spacing: 10px;
   padding: 40px 60px;
- }
-.about .content h2{
+}
+.about .content h2 {
   margin: 20px;
   font-size: 40px;
 }
-.about .content span{
-  color: #F3F70F;
+.about .content span {
+  color: #f3f70f;
   font-weight: bolder;
 }
-.about .content span a{
-  color: #F3F70F;
+.about .content span a {
+  color: #f3f70f;
   font-weight: bolder;
 }
-.about .content span a:hover{
-  border-bottom: 2px solid #F3F70F;
-
+.about .content span a:hover {
+  border-bottom: 2px solid #f3f70f;
 }
-.print{
+.print {
   text-align: center;
   padding: 20px;
-  border: 2px solid #F3F70F ;
+  border: 2px solid #f3f70f;
   border-radius: 20px;
   transition: 0.3s;
-  color: #F3F70F;
+  color: #f3f70f;
   font-weight: bolder;
   display: flex;
   justify-content: center;
@@ -163,49 +173,48 @@ font-size: 60px;
   margin: 20px auto;
   font-size: 20px;
 }
-.print:hover{
+.print:hover {
   background-color: #c9cc05;
   color: white;
-} 
-.skills{
+}
+.skills {
   padding: 10px;
   width: 70%;
-  margin: -20px   auto;
+  margin: -20px auto;
   border: 2px solid rgb(5, 5, 170);
   border-radius: 20px;
-z-index: 999;
-background-color: #fff;
-text-align: center;
-box-shadow: 0px 0px 7px 2px rgb(5, 5, 170);
+  z-index: 999;
+  background-color: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 7px 2px rgb(5, 5, 170);
 }
-.skills .code{
+.skills .code {
   font-size: 120px;
   color: rgb(5, 5, 170);
 }
-.skills h3{
- font-size: 30px;
- margin: 20px 0 ;
+.skills h3 {
+  font-size: 30px;
+  margin: 20px 0;
 }
-.skills span{
+.skills span {
   color: rgb(5, 5, 170);
   font-weight: bold;
 }
-.skills p{
-margin: 20px 0;
-font-size: 18px;
-
+.skills p {
+  margin: 20px 0;
+  font-size: 18px;
 }
 .skills li {
-list-style-type: none;
-padding-top: 15px;
-font-size: 18px;
+  list-style-type: none;
+  padding-top: 15px;
+  font-size: 18px;
 }
 .projects .content h2 {
   text-align: center;
   margin-top: 60px;
   font-size: 40px;
 }
-.projects .content p{
+.projects .content p {
   padding: 0 200px;
   font-size: 17px;
 }
@@ -218,9 +227,8 @@ font-size: 18px;
   padding: 15px;
   float: right;
   clear: right;
-  
 }
-.tab-item{
+.tab-item {
   margin: 10px;
   display: inline;
   float: right;
@@ -229,14 +237,13 @@ font-size: 18px;
   cursor: pointer;
   font-weight: bold;
   color: rgb(5, 5, 170);
-  transition: .5s all;
+  transition: 0.5s all;
 }
-.tab-item-active{
+.tab-item-active {
   border-bottom: 1px solid rgb(18, 18, 207);
   color: rgb(50, 50, 243);
-
 }
-.projects .content .box{
+.projects .content .box {
   text-align: center;
   border: 1px solid rgb(5, 5, 170);
   border-radius: 15px;
@@ -250,29 +257,29 @@ font-size: 18px;
   align-items: center;
   padding: 20px;
 }
-.projects .content .box img{
+.projects .content .box img {
   width: 45%;
 }
- .box span {
+.box span {
   color: rgb(18, 18, 207);
   font-weight: bold;
   margin-top: 15px;
 }
-.box h3{
+.box h3 {
   color: rgb(5, 5, 170);
 }
 .box p {
-  margin-bottom: 35px ;
+  margin-bottom: 35px;
 }
 .testimonials {
   text-align: center;
   padding: 50px 170px;
 }
-.testimonials h2{
+.testimonials h2 {
   font-size: 40px;
   margin-bottom: 15px;
 }
-.testimonials p{
+.testimonials p {
   font-weight: 100;
 }
 .slide-txt {
@@ -280,15 +287,15 @@ font-size: 18px;
   padding: 20px 0;
   font-size: 25px;
 }
-.name{
+.name {
   color: rgb(18, 18, 207);
   margin-bottom: 10px;
 }
-.test-slide{
+.test-slide {
   margin-top: 70px;
 }
 
-.test-slider-counter{
+.test-slider-counter {
   display: flex;
   width: 180px;
   font-size: 28px;
@@ -296,11 +303,11 @@ font-size: 18px;
   float: right;
   color: rgb(5, 5, 170);
 }
-.test-slider-prev{
+.test-slider-prev {
   margin-right: 10px;
   cursor: pointer;
 }
-.test-slider-next{
+.test-slider-next {
   margin-left: 10px;
   cursor: pointer;
 }
@@ -312,7 +319,7 @@ font-size: 18px;
 .contact {
   margin-top: 30px;
 }
-.form{
+.form {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -322,11 +329,11 @@ font-size: 18px;
   margin: 0 auto;
   padding: 40px 0;
   border-radius: 15px;
-z-index: 999;  
-margin-bottom: -80px;
-position: relative;
+  z-index: 999;
+  margin-bottom: -80px;
+  position: relative;
 }
-.form h2{
+.form h2 {
   font-size: 40px;
 }
 .form p {
@@ -334,49 +341,44 @@ position: relative;
   margin: 0 50px;
   font-size: 20px;
 }
-.social{
+.social {
   margin-top: -25px;
   width: 100%;
   height: 65vh;
   background-color: rgb(50, 50, 243);
-  
-
 }
-.social .brand{
+.social .brand {
   color: #fff;
   font-size: 100px;
   position: relative;
   top: 100px;
   left: 600px;
-  
 }
-.messengers{
+.messengers {
   position: relative;
   top: 250px;
-  left: 407px; 
+  left: 407px;
   z-index: 999;
   display: inline-block;
-  
 }
-.messengers .fab{
+.messengers .fab {
   font-size: 35px;
   color: rgb(50, 50, 243);
   height: 1.3em;
   width: 1.3em;
- margin: 7px;
- padding-top: 5px ;
- text-align: center;
- justify-content: center;
+  margin: 7px;
+  padding-top: 5px;
+  text-align: center;
+  justify-content: center;
   background-color: #fff;
   border-radius: 25px;
   cursor: pointer;
-  
 }
-.messengers .fab:hover{
+.messengers .fab:hover {
   background-color: #000;
   color: #fff;
 }
-.messengers p{
+.messengers p {
   color: #fff;
   margin-top: 35px;
   margin-left: 15px;
